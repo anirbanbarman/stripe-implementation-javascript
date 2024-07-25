@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+       .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+       .message-box {
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+       ._failed {
+            background-color: #f8d7da;
+            border-color: #e4d7db;
+            color: #721c24;
+        }
+       ._failed i {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="message-box _failed">
+                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                    <h1>Failure</h1>
+                    <h2>Your payment failed</h2>
+                    <p>Try again later.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
